@@ -1,3 +1,4 @@
+import 'bulma';
 import '../css/style.css';
 import jequetiImg from '../assets/Ck1qa1CXEAA5ntw.jpg';
 
