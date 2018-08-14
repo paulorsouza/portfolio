@@ -1,0 +1,11 @@
+.main-image {
+  margin-bottom: 25px;
+}
+
+.hero-container {
+  display: inline-flex;
+}
+
+.hero-icon {
+  margin-right: 10px;
+}
