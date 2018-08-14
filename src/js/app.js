@@ -1,13 +1,6 @@
 import 'bulma';
 import '../css/style.css';
-import jequetiImg from '../assets/Ck1qa1CXEAA5ntw.jpg';
+import jequetiImg from '../assets/jedi_vs_sith.png';
 
-const divJequeti = window.document.getElementById("jequeti");
-const originalElement = divJequeti.innerHTML;
-
-setInterval(() => {
-  divJequeti.innerHTML = `<img style="width: 100%; height: 100%" src=${jequetiImg} />`;
-  setTimeout(() => {
-    divJequeti.innerHTML = originalElement;
-  }, 100);
-}, 4000);
+const mainImage = window.document.getElementById("main-image");
+mainImage.src = jequetiImg;
