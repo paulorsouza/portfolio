@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const paths = {
   DIST: path.resolve(__dirname, 'dist'),
@@ -19,6 +20,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.join(paths.SRC, 'index.html'),
     }),
+    new CopyWebpackPlugin([
+      { from:'src/assets', to: 'images' }
+    ]),
     new ExtractTextPlugin('style.bundle.css')
   ],
 

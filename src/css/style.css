@@ -1,11 +1,24 @@
 .main-image {
   margin-bottom: 25px;
-};
+  padding: 0px 10px 0px 10px;
+}
 
 .hero-container {
   display: inline-flex;
-};
+}
 
 .hero-icon {
   margin-right: 10px;
-};
+}
+
+.tile {
+  padding: 10px;
+}
+
+.project-title {
+  font-weight: 600;
+}
+
+.title, .subtitle {
+  font-variant-caps: small-caps;
+}
